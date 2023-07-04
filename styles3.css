@@ -1,0 +1,61 @@
+body {
+    background-image: url('pexels-deeana-arts-1646981.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -6px;
+    height: 100px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: 50px;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+.text {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(77, 36, 36);
+  }
+  .text2{
+    position: absolute;
+    top: 300px;
+    left: 825px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(77, 36, 36);
+  }
+  .guitar {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+  }
+  .pet {
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+  }

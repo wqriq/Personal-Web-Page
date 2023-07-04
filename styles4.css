@@ -1,0 +1,66 @@
+body {
+    background-image: url('pexels-cottonbro-studio-5082579.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -6px;
+    height: 100px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: 50px;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text p {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  .facebook {
+    position: absolute;
+    top: 38px;
+    left: 50px;
+  }
+  .instagram {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .twitter {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }

@@ -1,0 +1,65 @@
+body {
+    background-image: url('pexels-ann-poan-5797997.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.google img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 830px;
+    height: 520px;
+    margin-left: 420px;
+    margin-top: 75px;
+    object-fit: cover;
+}
+.google1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.2);
+    width: 800px;
+    height: 350x;
+    margin-left: 690px;
+    margin-top: 150px;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: 350px;
+    left: 430px;
+    color:black;
+    font-size: 25px;
+    font-weight: 250;
+}
+.link{
+    position: absolute;
+    top:470px;
+    left:630px;
+    color:black;
+    font-size:25px;
+    font-weight: 250px;
+    text-decoration: none;
+    background-color: rgb(162, 158, 158);
+    padding: 10px;
+
+}
+.link1{
+    position: absolute;
+    top:470px;
+    left:840px;
+    color:black;
+    font-size:25px;
+    font-weight: 250px;
+    text-decoration: none;
+    background-color: rgb(162, 158, 158);
+    padding: 10px;
+
+}
+
+
+
+
+
+

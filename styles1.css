@@ -1,0 +1,76 @@
+body {
+    background-image: url('pexels-tirachard-kumtanom-733853.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -6px;
+    height: 100px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: 50px;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+.container {
+    position: relative;
+  }
+  
+  .container img {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    transform: scale(1.9);
+  }
+  .container1 {
+    position: relative;
+  }
+  
+  .container1 img {
+    position: absolute;
+    width:196px;
+    height:267px;
+    top: 395px;
+    left: 955px;
+    transform: scale(0.6);
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text-overlay p {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  .school{
+    transform:scale(0,3);
+  }
